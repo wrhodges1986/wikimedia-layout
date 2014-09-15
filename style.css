@@ -1,0 +1,57 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	width: 72%;
+	border-bottom: 1px solid gray;
+	margin-left: 14%;
+	margin-right: 14%;
+	margin-top: 35px;
+}
+
+.pageText {
+	font-size: 20px;
+	font-family: "Helvetica", "Sans-serif";
+	line-height: 28px;
+}
+
+#welcomeText {
+	text-align: right;
+	clear: both;
+}
+
+.pictureLinks {
+	width: 100%;
+	display: flex;
+	/* Some flex attributes don't become gray in Notepad++, but still work */
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.footerText {
+ text-align: center;
+ font-family: "Helvetica", "Sans-serif";
+ font-size: 14px;
+}
+
+#terms {
+	padding-right: 20px;
+}
+
+#policy{
+	padding-left: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	margin: 20px 60px;
+	/* Makes the image sit centered vertically within the link */
+	vertical-align: middle;
+}
